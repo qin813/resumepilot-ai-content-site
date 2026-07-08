@@ -1,0 +1,415 @@
+/* ==========================
+   ResumePilot AI SEO文章页
+   独立样式
+========================== */
+
+
+*{
+    box-sizing:border-box;
+}
+
+
+
+body{
+
+    margin:0;
+
+    background:#f8fafc;
+
+    color:#172033;
+
+    font-family:
+    "Microsoft YaHei",
+    Arial,
+    sans-serif;
+
+    line-height:1.8;
+
+}
+
+
+
+
+/* 顶部导航 */
+
+.article-header{
+
+    height:80px;
+
+    background:white;
+
+    border-bottom:1px solid #e5e7eb;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 70px;
+
+}
+
+
+
+.logo h1{
+
+    margin:0;
+
+    color:#2563eb;
+
+    font-size:24px;
+
+}
+
+
+
+.logo p{
+
+    margin:0;
+
+    color:#64748b;
+
+    font-size:13px;
+
+}
+
+
+
+.article-header nav a{
+
+    margin-left:30px;
+
+    text-decoration:none;
+
+    color:#334155;
+
+}
+
+
+
+
+
+/* 页面主体 */
+
+.article-container{
+
+
+    max-width:1000px;
+
+    margin:50px auto;
+
+
+}
+
+
+
+
+/* 顶部标题 */
+
+
+.article-top{
+
+
+    background:white;
+
+    padding:45px 55px;
+
+    border-radius:24px;
+
+    border:1px solid #e5e7eb;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.article-tag{
+
+
+    display:inline-block;
+
+    padding:6px 16px;
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+
+}
+
+
+
+.article-top h1{
+
+
+    font-size:42px;
+
+    line-height:1.3;
+
+    margin:25px 0;
+
+
+}
+
+
+
+.article-top p{
+
+
+    font-size:18px;
+
+    color:#475569;
+
+}
+
+
+
+
+/* 内容卡片 */
+
+
+.article-card{
+
+
+    background:white;
+
+    padding:40px 50px;
+
+    border-radius:22px;
+
+    border:1px solid #e5e7eb;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.article-card h2{
+
+
+    font-size:30px;
+
+    margin-top:0;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.article-card p{
+
+
+    color:#475569;
+
+    font-size:17px;
+
+}
+
+
+
+.article-card li{
+
+
+    margin:12px 0;
+
+}
+
+
+
+
+
+/* 功能卡片 */
+
+
+.feature-grid{
+
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+
+}
+
+
+
+.feature-grid div{
+
+
+    background:#f8fafc;
+
+    padding:25px;
+
+    border-radius:16px;
+
+    border:1px solid #edf2f7;
+
+
+}
+
+
+
+.feature-grid h3{
+
+
+    margin-top:0;
+
+    font-size:20px;
+
+    color:#1e293b;
+
+
+}
+
+
+
+
+
+/* 使用流程 */
+
+
+.process-list{
+
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:15px;
+
+
+}
+
+
+
+.process-list div{
+
+
+    background:#eff6ff;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+
+}
+
+
+
+
+
+/* FAQ */
+
+
+.faq h3{
+
+
+    margin-top:30px;
+
+    padding:15px;
+
+    background:#f8fafc;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+
+}
+
+
+
+.faq p{
+
+
+    padding-left:15px;
+
+
+}
+
+
+
+
+
+/* Footer */
+
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#64748b;
+
+}
+
+
+
+
+
+/* 手机适配 */
+
+
+@media(max-width:900px){
+
+
+.article-container{
+
+    margin:20px;
+
+}
+
+
+
+.article-top,
+.article-card{
+
+    padding:30px;
+
+}
+
+
+
+.feature-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.process-list{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.article-top h1{
+
+    font-size:32px;
+
+}
+
+
+}
