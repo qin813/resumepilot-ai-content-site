@@ -3,6 +3,8 @@
 }
 
 
+body{
+
     margin:0;
 
     font-family:
@@ -10,20 +12,17 @@
     Arial,
     sans-serif;
 
-    background:#f7f9fc;
+    background:#f6f8fc;
 
     color:#172033;
 
 }
 
 
-/* 顶部导航 */
 
-header{
+.site-header{
 
-    height:90px;
-
-    background:white;
+    height:80px;
 
     display:flex;
 
@@ -31,17 +30,274 @@ header{
 
     align-items:center;
 
-    padding:0 80px;
+    padding:0 70px;
 
-    border-bottom:1px solid #eef2f7;
+    background:white;
+
+    border-bottom:1px solid #edf0f5;
 
 }
 
 
 
-.logo h1{
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+
+
+.brand-mark{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+
+.brand h1{
 
     margin:0;
+
+    font-size:22px;
+
+}
+
+
+.brand p{
+
+    margin:4px 0;
+
+    color:#64748b;
+
+    font-size:13px;
+
+}
+
+
+
+nav a{
+
+    margin-left:35px;
+
+    text-decoration:none;
+
+    color:#334155;
+
+    font-size:15px;
+
+}
+
+
+
+nav a:hover{
+
+    color:#2563eb;
+
+}
+
+
+
+
+.hero-section{
+
+    max-width:1400px;
+
+    margin:40px auto;
+
+    padding:70px;
+
+    display:grid;
+
+    grid-template-columns:1fr 520px;
+
+    gap:50px;
+
+
+    background:
+    linear-gradient(
+    135deg,
+    #ffffff,
+    #eef5ff
+    );
+
+    border-radius:30px;
+
+}
+
+
+
+.tag{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:#e7efff;
+
+    color:#2563eb;
+
+    font-size:14px;
+
+}
+
+
+
+.hero-left h2{
+
+    font-size:52px;
+
+    line-height:1.25;
+
+    margin:35px 0;
+
+}
+
+
+
+.hero-left h2 strong{
+
+    color:#2563eb;
+
+}
+
+
+
+.hero-left p{
+
+    font-size:18px;
+
+    line-height:2;
+
+    color:#475569;
+
+}
+
+
+
+.hero-actions{
+
+    margin-top:40px;
+
+}
+
+
+
+.primary-btn,
+.secondary-btn{
+
+    display:inline-block;
+
+    padding:16px 32px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    margin-right:15px;
+
+}
+
+
+
+.primary-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+
+
+.secondary-btn{
+
+    border:1px solid #2563eb;
+
+    color:#2563eb;
+
+}
+
+
+
+
+.hero-dashboard{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:24px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.08);
+
+}
+
+
+
+.metric-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+
+
+.metric-card{
+
+    background:#f8fafc;
+
+    padding:25px;
+
+    border-radius:18px;
+
+}
+
+
+
+.metric-card span{
+
+    color:#64748b;
+
+}
+
+
+
+.metric-card strong{
+
+    display:block;
+
+    margin-top:15px;
 
     color:#2563eb;
 
@@ -51,9 +307,43 @@ header{
 
 
 
-.logo p{
+.metric-card.wide{
 
-    margin:5px 0;
+    grid-column:span 2;
+
+}
+
+
+
+.panel-section{
+
+    max-width:1400px;
+
+    margin:50px auto;
+
+}
+
+
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.section-title h2{
+
+    font-size:32px;
+
+}
+
+
+
+.section-title p{
 
     color:#64748b;
 
@@ -61,306 +351,8 @@ header{
 
 
 
-
-nav a{
-
-    margin-left:30px;
-
-    text-decoration:none;
-
-    color:#334155;
-
-    font-size:16px;
-
-}
-
-
-
-
-
-/* Hero */
-
-.hero{
-
-
-    width:100%;
-
-    min-height:600px;
-
-    padding:80px;
-
-    display:flex;
-
-    flex-direction:row;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    gap:60px;
-
-
-    background:
-
-    linear-gradient(
-    135deg,
-    #ffffff,
-    #eef5ff
-    );
-
-
-}
-
-
-
-
-
-.hero-left{
-
-
-    flex:1;
-
-    max-width:600px;
-
-
-}
-
-
-
-.tag{
-
-
-    display:inline-block;
-
-    background:#e8f1ff;
-
-    color:#2563eb;
-
-    padding:8px 18px;
-
-    border-radius:30px;
-
-}
-
-
-
-
-
-.hero h2{
-
-
-    font-size:52px;
-
-    line-height:1.25;
-
-    margin:30px 0;
-
-
-}
-
-
-
-.hero h2 span{
-
-    color:#2563eb;
-
-}
-
-
-
-.hero p{
-
-    font-size:18px;
-
-    line-height:1.8;
-
-    color:#475569;
-
-
-}
-
-
-
-.buttons{
-
-    margin-top:35px;
-
-}
-
-
-
-button{
-
-
-    padding:15px 30px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#2563eb;
-
-    color:white;
-
-    font-size:16px;
-
-}
-
-
-
-.secondary{
-
-
-    margin-left:15px;
-
-    background:white;
-
-    color:#2563eb;
-
-    border:1px solid #2563eb;
-
-
-}
-
-
-
-
-
-/* Dashboard */
-
-.hero-dashboard{
-
-
-    flex:1;
-
-    max-width:520px;
-
-    background:white;
-
-    padding:35px;
-
-    border-radius:25px;
-
-
-    box-shadow:
-
-    0 20px 50px rgba(37,99,235,.12);
-
-
-}
-
-
-
-
-.hero-dashboard h3{
-
-
-    font-size:24px;
-
-    margin-top:0;
-
-
-}
-
-
-
-
-.metrics{
-
-
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    gap:20px;
-
-
-}
-
-
-
-.data-card{
-
-
-    background:#f8fafc;
-
-    padding:25px;
-
-    border-radius:18px;
-
-
-}
-
-
-
-.data-card p{
-
-
-    color:#64748b;
-
-}
-
-
-
-.data-card strong{
-
-
-    font-size:38px;
-
-    color:#2563eb;
-
-
-}
-
-
-
-.platform{
-
-
-    margin-top:25px;
-
-    padding:18px;
-
-    background:#eff6ff;
-
-    border-radius:15px;
-
-
-}
-
-
-
-
-
-/* 内容区域 */
-
-
-section{
-
-
-    padding:70px 80px;
-
-}
-
-
-
-
-h2{
-
-
-    font-size:36px;
-
-}
-
-
-
-
-
-/* 项目卡片 */
-
-
-.cards{
-
+.deliverable-grid,
+.content-grid{
 
     display:grid;
 
@@ -368,13 +360,58 @@ h2{
 
     gap:25px;
 
+}
+
+
+
+.info-card,
+.content-card{
+
+    background:white;
+
+    padding:28px;
+
+    border-radius:20px;
+
+    border:1px solid #edf0f5;
+
+    transition:.3s;
 
 }
 
 
 
-.cards div{
+.info-card:hover,
+.content-card:hover{
 
+    transform:translateY(-5px);
+
+}
+
+
+
+.info-card span,
+.content-card span{
+
+    color:#2563eb;
+
+    font-size:20px;
+
+}
+
+
+
+.content-card{
+
+    text-decoration:none;
+
+    color:#172033;
+
+}
+
+
+
+.geo-table-wrap{
 
     background:white;
 
@@ -382,46 +419,15 @@ h2{
 
     border-radius:20px;
 
-    min-height:100px;
-
-
-    box-shadow:
-
-    0 10px 30px rgba(0,0,0,.05);
-
-
 }
 
-
-
-
-
-.cards a{
-
-    color:#2563eb;
-
-}
-
-
-
-
-
-/* GEO表格 */
 
 
 table{
 
-
     width:100%;
 
-    background:white;
-
     border-collapse:collapse;
-
-    border-radius:15px;
-
-    overflow:hidden;
-
 
 }
 
@@ -429,88 +435,100 @@ table{
 
 th{
 
-
-    background:#eff6ff;
-
+    background:#f1f5f9;
 
 }
+
 
 
 td,th{
 
-
     padding:18px;
 
-    border-bottom:1px solid #eee;
+    border-bottom:1px solid #e5e7eb;
 
+    text-align:left;
 
 }
 
 
 
 
+.process-line{
+
+    display:grid;
+
+    grid-template-columns:repeat(6,1fr);
+
+    gap:20px;
+
+}
 
 
-/* 方法论 */
 
-.process{
-
+.process-line div{
 
     background:white;
 
-    border-radius:20px;
+    padding:25px;
 
-    padding:40px;
+    border-radius:18px;
 
-    text-align:center;
+}
 
-    font-size:20px;
 
-    line-height:3;
 
+.process-line span{
+
+    color:#2563eb;
+
+    font-size:24px;
 
 }
 
 
 
 
+.report-banner{
 
-/* 报告入口 */
+    max-width:1400px;
 
+    margin:50px auto;
 
-.report{
-
-
-    margin:40px 80px;
-
-    background:
-
-    linear-gradient(
-    90deg,
-    #2563eb,
-    #6366f1
-    );
-
-
-    color:white;
+    padding:45px;
 
     border-radius:25px;
 
-    padding:40px;
+    background:
+    linear-gradient(
+    90deg,
+    #2563eb,
+    #7c3aed
+    );
 
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
 
 }
 
 
 
-
-.report button{
-
+.report-btn{
 
     background:white;
 
     color:#2563eb;
 
+    padding:15px 30px;
+
+    border-radius:12px;
+
+    text-decoration:none;
 
 }
 
@@ -519,67 +537,40 @@ td,th{
 
 footer{
 
+    padding:40px 70px;
 
-    text-align:center;
+    background:white;
 
-    padding:30px;
+    display:flex;
 
-    color:#64748b;
-
-
-}
-
-
-
-
-
-@media(max-width:900px){
-
-
-.hero{
-
-
-    flex-direction:column;
-
-    padding:40px;
-
+    justify-content:space-between;
 
 }
 
 
 
-.hero-left,
 
-.hero-dashboard{
+@media(max-width:1000px){
 
+.hero-section{
 
-    width:100%;
-
-}
-
-
-
-.cards{
-
-
-    grid-template-columns:1fr;
-
+grid-template-columns:1fr;
 
 }
 
 
+.deliverable-grid,
+.content-grid{
 
-header{
-
-
-    flex-direction:column;
-
-    height:auto;
-
-    padding:30px;
-
+grid-template-columns:1fr 1fr;
 
 }
 
+
+.process-line{
+
+grid-template-columns:1fr 1fr;
+
+}
 
 }
