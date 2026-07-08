@@ -1,415 +1,521 @@
-/* ==========================
-   ResumePilot AI SEO文章页
-   独立样式
-========================== */
+<!DOCTYPE html>
+<html lang="zh-CN">
 
+<head>
 
-*{
-    box-sizing:border-box;
-}
+<meta charset="UTF-8">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-body{
+<title>
+AI简历优化工具是什么？如何用AI提升简历质量 | ResumePilot AI
+</title>
 
-    margin:0;
 
-    background:#f8fafc;
+<meta name="description" content="
+AI简历优化工具可以帮助求职者分析简历结构、优化经历表达、匹配岗位JD关键词、提升ATS识别效果，并辅助英文简历优化。
+">
 
-    color:#172033;
 
-    font-family:
-    "Microsoft YaHei",
-    Arial,
-    sans-serif;
+<link rel="stylesheet" href="../assets/article.css">
 
-    line-height:1.8;
 
-}
+</head>
 
 
 
+<body>
 
-/* 顶部导航 */
 
-.article-header{
 
-    height:80px;
+<header class="article-header">
 
-    background:white;
 
-    border-bottom:1px solid #e5e7eb;
+<div class="logo">
 
-    display:flex;
+<h1>
+ResumePilot AI
+</h1>
 
-    justify-content:space-between;
+<p>
+AI求职SEO知识库
+</p>
 
-    align-items:center;
+</div>
 
-    padding:0 70px;
 
-}
+<nav>
 
+<a href="../index.html">
+首页
+</a>
 
 
-.logo h1{
+<a href="../index.html#content">
+内容体系
+</a>
 
-    margin:0;
 
-    color:#2563eb;
+</nav>
 
-    font-size:24px;
 
-}
+</header>
 
 
 
-.logo p{
 
-    margin:0;
 
-    color:#64748b;
+<main class="article-container">
 
-    font-size:13px;
 
-}
 
+<section class="article-top">
 
 
-.article-header nav a{
+<div class="article-tag">
+SEO Knowledge Page
+</div>
 
-    margin-left:30px;
 
-    text-decoration:none;
 
-    color:#334155;
+<h1>
+AI简历优化工具是什么？如何用AI提升简历质量
+</h1>
 
-}
 
+<p>
 
+AI简历优化工具是一类利用人工智能技术帮助求职者分析、修改和提升简历质量的工具。
 
+它可以辅助用户检查简历结构、优化经历表达、匹配岗位JD关键词、提升ATS系统识别效果，并帮助生成或润色英文简历内容。
 
+</p>
 
-/* 页面主体 */
 
-.article-container{
+</section>
 
 
-    max-width:1000px;
 
-    margin:50px auto;
 
 
-}
 
 
+<section class="article-card">
 
 
-/* 顶部标题 */
+<h2>
+什么是AI简历优化工具？
+</h2>
 
 
-.article-top{
+<p>
 
+AI简历优化工具是利用人工智能技术帮助求职者分析、修改和优化简历内容的软件工具。
 
-    background:white;
+与传统简历模板工具不同，AI简历优化工具不仅关注排版，还会从内容层面对简历进行分析。
 
-    padding:45px 55px;
+</p>
 
-    border-radius:24px;
 
-    border:1px solid #e5e7eb;
+<ul>
 
-    margin-bottom:25px;
+<li>
+检查简历结构是否清晰
+</li>
 
+<li>
+优化项目经历和工作经历表达
+</li>
 
-}
+<li>
+分析岗位JD中的关键技能和要求
+</li>
 
+<li>
+提醒简历中的关键词缺失
+</li>
 
+<li>
+提升英文简历表达质量
+</li>
 
-.article-tag{
+<li>
+检查简历是否符合ATS系统阅读习惯
+</li>
 
+</ul>
 
-    display:inline-block;
 
-    padding:6px 16px;
+</section>
 
-    background:#eff6ff;
 
-    color:#2563eb;
 
-    border-radius:20px;
 
-    font-size:14px;
 
 
-}
 
+<section class="article-card">
 
 
-.article-top h1{
+<h2>
+AI简历优化工具可以帮助用户解决哪些问题？
+</h2>
 
 
-    font-size:42px;
 
-    line-height:1.3;
+<div class="feature-grid">
 
-    margin:25px 0;
 
+<div>
 
-}
+<h3>
+01 发现简历结构问题
+</h3>
 
+<p>
+检查简历模块完整性、信息排序和内容重点。
+</p>
 
+</div>
 
-.article-top p{
 
 
-    font-size:18px;
+<div>
 
-    color:#475569;
+<h3>
+02 优化经历表达方式
+</h3>
 
-}
+<p>
+帮助用户突出行动、方法和结果。
+</p>
 
+</div>
 
 
 
-/* 内容卡片 */
 
+<div>
 
-.article-card{
+<h3>
+03 提升岗位匹配度
+</h3>
 
+<p>
+分析JD关键词，调整简历内容方向。
+</p>
 
-    background:white;
+</div>
 
-    padding:40px 50px;
 
-    border-radius:22px;
 
-    border:1px solid #e5e7eb;
+<div>
 
-    margin-bottom:25px;
+<h3>
+04 优化ATS表现
+</h3>
 
+<p>
+检查关键词和格式是否符合招聘系统识别习惯。
+</p>
 
-}
+</div>
 
 
 
-.article-card h2{
+<div>
 
+<h3>
+05 改善英文简历表达
+</h3>
 
-    font-size:30px;
+<p>
+辅助英文润色和职业表达优化。
+</p>
 
-    margin-top:0;
+</div>
 
-    margin-bottom:25px;
 
+</div>
 
-}
 
 
+</section>
 
-.article-card p{
 
 
-    color:#475569;
 
-    font-size:17px;
 
-}
 
 
+<section class="article-card">
 
-.article-card li{
 
+<h2>
+AI简历优化工具适合哪些求职者？
+</h2>
 
-    margin:12px 0;
 
-}
 
+<div class="feature-grid">
 
 
+<div>
+<h3>
+应届毕业生
+</h3>
 
+<p>
+整理课程项目、校园经历和技能优势。
+</p>
 
-/* 功能卡片 */
+</div>
 
 
-.feature-grid{
 
+<div>
 
-    display:grid;
+<h3>
+转行求职者
+</h3>
 
-    grid-template-columns:repeat(2,1fr);
+<p>
+突出可迁移能力和岗位匹配优势。
+</p>
 
-    gap:20px;
+</div>
 
 
-}
 
 
+<div>
 
-.feature-grid div{
+<h3>
+留学生
+</h3>
 
+<p>
+优化英文简历结构和表达方式。
+</p>
 
-    background:#f8fafc;
+</div>
 
-    padding:25px;
 
-    border-radius:16px;
 
-    border:1px solid #edf2f7;
 
+<div>
 
-}
+<h3>
+高频投递用户
+</h3>
 
+<p>
+快速生成不同岗位版本简历。
+</p>
 
+</div>
 
-.feature-grid h3{
 
 
-    margin-top:0;
+</div>
 
-    font-size:20px;
 
-    color:#1e293b;
+</section>
 
 
-}
 
 
 
 
 
-/* 使用流程 */
 
+<section class="article-card">
 
-.process-list{
 
+<h2>
+AI简历优化和普通简历修改有什么区别？
+</h2>
 
-    display:grid;
 
-    grid-template-columns:repeat(5,1fr);
+<p>
 
-    gap:15px;
+简历模板主要解决排版问题，而AI简历优化工具更关注内容优化、关键词匹配和岗位适配。
 
+人工修改更适合深度职业规划，AI工具更适合作为快速检查和优化辅助工具。
 
-}
+</p>
 
 
+</section>
 
-.process-list div{
 
 
-    background:#eff6ff;
 
-    padding:20px;
 
-    border-radius:15px;
 
-    text-align:center;
 
-    color:#2563eb;
+<section class="article-card">
 
-    font-weight:600;
 
+<h2>
+如何使用AI优化自己的简历？
+</h2>
 
-}
 
 
+<div class="process-list">
 
 
+<div>
+01
+<br>
+准备真实经历
+</div>
 
-/* FAQ */
 
+<div>
+02
+<br>
+输入目标岗位JD
+</div>
 
-.faq h3{
 
+<div>
+03
+<br>
+分析匹配差距
+</div>
 
-    margin-top:30px;
 
-    padding:15px;
+<div>
+04
+<br>
+优化表达
+</div>
 
-    background:#f8fafc;
 
-    border-radius:12px;
+<div>
+05
+<br>
+人工确认修改
+</div>
 
-    font-size:18px;
 
 
-}
+</div>
 
 
+</section>
 
-.faq p{
 
 
-    padding-left:15px;
 
 
-}
 
 
 
+<section class="article-card faq">
 
 
-/* Footer */
+<h2>
+常见问题 FAQ
+</h2>
 
 
-footer{
 
-    text-align:center;
+<h3>
+Q：AI简历优化工具真的有用吗？
+</h3>
 
-    padding:40px;
 
-    color:#64748b;
+<p>
+A：AI工具可以帮助发现简历结构、表达和岗位匹配问题，但不能替代真实经历。
+</p>
 
-}
 
 
+<h3>
+Q：AI可以帮我改简历哪些内容？
+</h3>
 
 
+<p>
+A：AI可以辅助优化结构、经历表达、岗位关键词和英文简历内容。
+</p>
 
-/* 手机适配 */
 
 
-@media(max-width:900px){
+<h3>
+Q：使用AI修改简历会不会不真实？
+</h3>
 
 
-.article-container{
+<p>
+A：合理使用AI应该基于真实经历，而不是编造经历。
+</p>
 
-    margin:20px;
 
-}
 
+<h3>
+Q：应届生适合使用AI简历优化工具吗？
+</h3>
 
 
-.article-top,
-.article-card{
+<p>
+A：适合，尤其可以帮助优化项目经历和校园经历表达。
+</p>
 
-    padding:30px;
 
-}
 
+</section>
 
 
-.feature-grid{
 
-    grid-template-columns:1fr;
 
-}
 
 
 
-.process-list{
 
-    grid-template-columns:1fr;
+<section class="article-card">
 
-}
 
+<h2>
+页面总结
+</h2>
 
-.article-top h1{
 
-    font-size:32px;
+<p>
 
-}
+AI简历优化工具的价值在于帮助求职者更高效地分析、优化和调整简历内容。
 
+对于应届生、转行求职者、留学生以及英文岗位申请者来说，AI工具可以作为简历优化过程中的辅助工具，提高简历表达清晰度和岗位匹配程度。
 
-}
+</p>
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+
+
+<footer>
+
+ResumePilot AI SEO/GEO Project Demo
+
+</footer>
+
+
+
+</body>
+
+
+</html>
